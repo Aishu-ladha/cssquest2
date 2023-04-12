@@ -1,0 +1,89 @@
+.ice-cream{
+    width: 200px;
+    height: 310px;
+    background-color: rgb(159, 74, 13);
+    border-radius:  100px 100px 20px  20px ;
+    box-shadow: inset rgb(176, 87, 24) 23px 0 ;
+}
+
+.smile{
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    left:110px;
+    top:180px;
+    border-radius: 100%;
+    z-index: 1;
+    display: inline;
+    -webkit-box-reflect: right 90px;
+}
+
+.ss{
+    width: 25px;
+    height: 20px;
+    border: 5px solid black;
+    border-top: none;
+    border-radius:   0 0 50px 50px;
+    display: -inline;
+    z-index: 1;
+    position: absolute;
+    left:150px;
+    top:220px
+}
+
+.stick{
+    width: 50px;
+    height: 150px;
+    background-color: rgb(246, 217, 164);
+    box-shadow: rgb(243, 231, 209) -5px  0px 1px ;
+    border-radius:  50px 50px 50px 50px;
+    position: absolute;
+    left:130px;top:340px;
+    z-index: -1;
+
+
+}
+
+.minis{
+    width:10px;
+    height: 13px;
+    background-color: rgb(244, 190, 151);
+    border-radius: 50px;
+    position: absolute;
+    left: 150px;
+    top:100px;
+    box-shadow: rgb(244, 190, 151) 45px 45px,
+    rgb(244, 190, 151) 90px 90px ,rgb(244, 190, 151)  100px 100px , rgb(244, 190, 151) 10px 160px,
+    rgb(244, 190, 151)  10px 230px , rgb(244, 190, 151)  -40px 200px , rgb(244, 190, 151)  10px 200px,rgb(244, 190, 151)  100px 330px
+    ;
+    -webkit-box-reflect: right 70px;
+
+}
+body{
+    margin: 50px 70px;
+}
+
+.dark{
+    width:60px;
+    height: 15px;
+    background-color:rgb(86, 40, 7) ;
+    border-radius: 120px 0;
+    rotate: -25deg;
+    transform: skew(-60deg);
+    position: absolute;
+    left: 90px;
+    top:75px;
+    border: 8px solid rgb(244, 190, 151);
+    z-index: 1;
+    
+}
+.circle{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    border-radius:100%;
+    position: absolute;
+    left:25px;
+    top:10px;
+}
